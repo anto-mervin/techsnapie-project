@@ -1,0 +1,32 @@
+
+
+
+.Portfolio__wrapper
+{
+   width: 80vw;
+   height: 600px;
+   background-color: transparent;
+}
+.Portfolio
+{
+    width: 100%;
+    height: 100%;
+    padding: 0% 10%;
+    
+    
+}
+.Portfolio__slider > img{
+   width: 80%;
+   height: 90%;
+   border-radius: 20px;
+   
+  
+}
+
+
+.Portfolio__slider--heading
+{
+    width: 100%;
+    position: absolute;
+   
+}

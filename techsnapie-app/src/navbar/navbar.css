@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.Navbar
+{
+    display:flex;
+   align-items: center;
+   background-color: black;;
+   color: whitesmoke;
+   padding: 15px 0;
+   
+    
+    
+}
+.Navbar > .Navbar__left
+{
+    flex-grow:0.4;  
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+}
+.Navbar > .Navbar__left > .Navbar__brand
+{
+    color: rgb(255, 200, 0);
+}
+.Navbar > .Navbar__right
+{
+    flex-grow:0.6;
+}
+.Navbar > .Navbar__right > ul 
+{
+    
+   display : flex;
+   list-style-type: none;
+   font-family: 'Poppins', sans-serif;
+   justify-content: space-evenly;
+   
+}
+.Navbar > .Navbar__right > ul >li
+{
+
+    transition: 0.2s ease-in;
+}
+
+
+
+.Navbar > .Navbar__right > ul >li:hover
+{
+    background-color: rgb(255, 200, 0);
+    color:black;
+    border-radius: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    
+}

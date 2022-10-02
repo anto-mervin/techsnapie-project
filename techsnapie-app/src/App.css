@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+.yellow--bg
+{
+  background-color: rgb(255, 255, 240);
+  padding-top: 15px;
+}
+
+.card__container
+{
+    display: flex;
+    margin: 2em;
+    padding: 1em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.portfolio__container
+{
+    display: flex;
+    margin: 2em;
+    padding: 1em;
+    justify-content: center;
+  
+
+
+}
+.Portfolio__heading
+{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.Portfolio__heading > span{
+  font-weight: bolder;
+  color:  #dca707;
+}
+.service__pill__title
+{
+
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}

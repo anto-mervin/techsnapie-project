@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
+
+.contact__wrapper
+{
+    display: flex;
+    align-items: center;
+
+}
+.contact__container 
+{
+    flex:0.5;
+    background-color:transparent ;
+    padding: 5vw;
+}
+.contact__container > .contact__details >.contact__heading
+{
+    display:flex ;
+
+    font-family: 'Roboto Slab', serif;
+
+    font-size: 2em;
+    color: #c52026;
+   
+    
+}
+               
+.contact__container>.contact__details>.contact__info
+{
+    padding: 10px 0 30px 50px;
+    font-size: 20px;
+    font-family: 'open sans',sans-serif;
+    font-weight: bold;
+}
+.form__container
+{
+    display: flex;
+    flex-direction: column;
+}
+.form__heading
+{
+    text-align: center;
+    font-size: 3rem;
+    color: #c52026;
+    padding-bottom: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.form__container > input
+{
+    border: 3px dashed black;
+    outline: 0cm;
+    padding: 20px 8px;
+    margin: 10px 0;
+    border-radius: 15px;
+    font-family: 'open sans',sans-serif;
+    font-size: 1rem;
+}
+.form__container > .form__elements::placeholder
+{
+    font-family: 'open sans',sans-serif;
+    font-size: 1rem;
+    padding-left: 1vw;
+
+}
+.form__container > .form__submit
+{
+    padding: 20px 0px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    outline: none;
+    background-color: #c52026;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 20px;
+    margin-top: 20px;
+}

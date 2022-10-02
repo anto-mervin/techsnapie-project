@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.about
+{
+    display: flex;
+    padding: .5rem 1rem;
+    align-items: center;
+}
+.aboutrev
+{
+    display: flex;
+    padding: .5rem 1rem;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.about > .about__item1 
+{
+    flex: 0.4;
+    width: 200px;
+   
+}
+.about > .about__item1 > img{
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.about > .about__item2
+{
+    flex: 0.6;
+    font-size: 1rem;
+    
+} 
+.about > .about__item2 > .heading
+{
+    font-family: 'Playfair Display',serif;
+    font-size: 3em;
+    padding-bottom: 10px;
+   
+}
+.about > .about__item2 > p{
+    font-family: 'Poppins', sans-serif;
+    padding-right: 3em;
+    font-size: 18px;
+
+}
+.about > .about__item2 > .heading > span
+{
+    color:#ffd044;
+}

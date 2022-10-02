@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.pill__container
+{
+    height: auto;
+    width: 200px;
+    border-radius: 50px;
+    background-color:#FFD044;
+    margin: 15px;
+    border: 3px solid #FFD044 ;
+    transition: all .2s ease;
+}
+.pill__container:hover
+{
+    background-color: white;
+    border: 3px solid #FFD044 ;
+}
+
+
+.pill__container >.pill> .pilltext
+{
+    padding: 20px 0 ;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
