@@ -85,3 +85,15 @@
     margin-top: 10px;
 }
 
+@media (max-width: 500px) 
+{
+    .footer__content
+    {
+        flex: 1;
+        flex-direction: row;
+    
+    }
+
+}
+
+

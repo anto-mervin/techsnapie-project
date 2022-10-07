@@ -14,6 +14,7 @@ export default class About extends Component {
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium enim consequuntur cupiditate libero soluta amet, eum, animi hic autem ut quisquam ab illo rem dolores quaerat impedit nulla fuga architecto.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium enim consequuntur cupiditate libero soluta amet, eum, animi hic autem ut quisquam ab illo rem dolores quaerat impedit nulla fuga architecto.
                 </p>
+                <br />
             
             
         </div>

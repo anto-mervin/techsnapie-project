@@ -2,6 +2,7 @@
 
 .pill__container
 {
+    font-size: 16px;
     height: auto;
     width: 200px;
     border-radius: 50px;
@@ -21,7 +22,34 @@
 {
     padding: 20px 0 ;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1em;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
+}
+
+@media (max-width: 500px) 
+{
+    .pill__container
+{
+    height: auto;
+    width: 100px;
+    border-radius: 50px;
+    background-color:#FFD044;
+    margin: 8px;
+    border: 3px solid #FFD044 ;
+    transition: all .2s ease;
+}
+.pill__container >.pill> .pilltext
+{
+    padding: 10px 0 ;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+    .pill__container >.pill> .pilltext
+    {
+        font-size: .6em;
+        margin: 0 3px;
+    }
 }

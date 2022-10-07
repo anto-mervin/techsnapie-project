@@ -43,7 +43,7 @@ function App() {
    <Servicepill pilltitle='Digital Marketing'/>
    <Servicepill pilltitle='Poster'/>
    <Servicepill pilltitle='Logo Design'/>
-   <Servicepill pilltitle='Digital Certification'/>
+   <Servicepill pilltitle='E-Certification'/>
    <Servicepill pilltitle='Pen-testing'/>
    <Servicepill pilltitle='Digi-Invitations'/>
    <Servicepill pilltitle='Ad Marketing'/>
