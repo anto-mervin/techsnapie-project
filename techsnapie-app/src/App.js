@@ -22,7 +22,7 @@ import uidl from './Services/ui-ux-design.png';
 
 function App() {
   return (
-    <div>
+    <div class="layout">
    <Navbar/>
    <Home/>
    <Title t1='About' t2=' Us' subtitle='DELIVERING INNOVATIONS' data-aos={"fade-left"}/>

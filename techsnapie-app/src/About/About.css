@@ -38,7 +38,7 @@
 .about > .about__item2 > p{
     font-family: 'Poppins', sans-serif;
     padding-right: 3em;
-    font-size: 1em;
+    font-size: 1.5em;
 
 }
 .about > .about__item2 > .heading > span
@@ -70,6 +70,7 @@ flex-direction: column;}
     flex:1 ;
     text-align:justify;
     padding: 6px;
+    font-size: 1em;
     
 }
 .about > .about__item2 > .heading 

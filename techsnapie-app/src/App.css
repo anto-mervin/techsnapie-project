@@ -48,3 +48,7 @@
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
+.layout
+{
+  overflow-x: hidden;
+}
